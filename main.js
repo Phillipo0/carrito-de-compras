@@ -26,7 +26,14 @@ function cargarProductos(){
 
 function agregarProducto(producto){
     productoAgregado.push(producto);
+    mostrarCarrito();
 }
+
+function mostrarCarrito(){
+    const carrito = document.getElementById("carrito");
+    carrito.innerHTML = '<h3>Carrito</h3>';
+}
+
 
 document.addEventListener("DOMContentLoaded", function(){
     cargarProductos();
