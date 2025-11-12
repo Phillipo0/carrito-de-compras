@@ -42,9 +42,8 @@ function aplicarDescuento(total, porcentaje) {
     return total - (total * (porcentaje / 100));
 }
 
-// Aplicar descuento al carrito (interacción)
 function aplicarDescuentoCarrito() {
-    descuentoActual = 10; // 10%
+    descuentoActual = 10;
     mostrarCarrito();
 }
 
